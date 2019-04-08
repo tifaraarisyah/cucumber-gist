@@ -1,0 +1,274 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Creating End-to-End (E2E) tests for creating a gist",
+    "line": 1,
+    "id": "creating-end-to-end-(e2e)-tests-for-creating-a-gist",
+    "tags": [],
+    "uri": "tests/features/gist_test.feature",
+    "elements": [
+      {
+        "id": "creating-end-to-end-(e2e)-tests-for-creating-a-gist;as-a-user,-i-want-to-create-a-public-gist",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "As a User, I want to create a public gist",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user login to gist page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 2000000,
+              "error_message": "TypeError: subPages.reduce(...) is not a function\n    at Object.get (/Users/tifaraarisyah/testonline-shopee/node_modules/nightwatch-cucumber/lib/index.js:36:21)\n    at World.Given (/Users/tifaraarisyah/testonline-shopee/tests/step_definitions/gist-step-test.js:7:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "user login to gist page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:6"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "user will see gist homepage",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:27"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "user click new gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:11"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "user create new gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:13"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "user click create public gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:19"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "user will see new gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:29"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-end-to-end-(e2e)-tests-for-creating-a-gist;as-a-user,-i-want-to-edit-an-existing-gist",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "As a User, I want to edit an existing gist",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user login to gist page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: subPages.reduce(...) is not a function\n    at Object.get (/Users/tifaraarisyah/testonline-shopee/node_modules/nightwatch-cucumber/lib/index.js:36:21)\n    at World.Given (/Users/tifaraarisyah/testonline-shopee/tests/step_definitions/gist-step-test.js:7:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 15,
+            "name": "user at gist list page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "user edit gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:23"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "user will see edited gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:31"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-end-to-end-(e2e)-tests-for-creating-a-gist;as-a-user,-i-want-to-delete-an-existing-gist",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "As a User, I want to delete an existing gist",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user login to gist page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "error_message": "TypeError: subPages.reduce(...) is not a function\n    at Object.get (/Users/tifaraarisyah/testonline-shopee/node_modules/nightwatch-cucumber/lib/index.js:36:21)\n    at World.Given (/Users/tifaraarisyah/testonline-shopee/tests/step_definitions/gist-step-test.js:7:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "user at gist list page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 21,
+            "name": "user delete gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:25"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "user will see list gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:33"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "creating-end-to-end-(e2e)-tests-for-creating-a-gist;as-a-user,-i-want-to-see-my-list-of-gists",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "As a User, I want to see my list of gists",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "user login to gist page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:6"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "TypeError: subPages.reduce(...) is not a function\n    at Object.get (/Users/tifaraarisyah/testonline-shopee/node_modules/nightwatch-cucumber/lib/index.js:36:21)\n    at World.Given (/Users/tifaraarisyah/testonline-shopee/tests/step_definitions/gist-step-test.js:7:14)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "user at gist list page",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:21"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "user will see list gist",
+            "match": {
+              "location": "tests/step_definitions/gist-step-test.js:33"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

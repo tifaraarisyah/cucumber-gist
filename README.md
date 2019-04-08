@@ -1,1 +1,1 @@
-# cucumber-gist
+Cucumber Nightwatch for Gits
